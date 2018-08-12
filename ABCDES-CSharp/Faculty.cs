@@ -1,16 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ABCDES_CSharp
 {
-    class Faculty
+    public partial class Faculty_controler : UserControl
     {
-        public static bool Add(string id,string name)
+        public Faculty_controler()
         {
-            return false;
+            InitializeComponent();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
