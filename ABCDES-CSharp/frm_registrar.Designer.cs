@@ -56,6 +56,7 @@
             // 
             // btnlogout
             // 
+            this.btnlogout.BackColor = System.Drawing.Color.Gray;
             this.btnlogout.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlogout.FlatAppearance.BorderSize = 2;
             this.btnlogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -66,11 +67,12 @@
             this.btnlogout.Size = new System.Drawing.Size(255, 94);
             this.btnlogout.TabIndex = 3;
             this.btnlogout.Text = "Logout";
-            this.btnlogout.UseVisualStyleBackColor = true;
+            this.btnlogout.UseVisualStyleBackColor = false;
             this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
             // 
             // btnProfile
             // 
+            this.btnProfile.BackColor = System.Drawing.Color.Gray;
             this.btnProfile.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnProfile.FlatAppearance.BorderSize = 2;
             this.btnProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -81,10 +83,12 @@
             this.btnProfile.Size = new System.Drawing.Size(255, 94);
             this.btnProfile.TabIndex = 4;
             this.btnProfile.Text = "Profile";
-            this.btnProfile.UseVisualStyleBackColor = true;
+            this.btnProfile.UseVisualStyleBackColor = false;
+            this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
             // 
             // btnsubject
             // 
+            this.btnsubject.BackColor = System.Drawing.Color.Gray;
             this.btnsubject.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsubject.FlatAppearance.BorderSize = 2;
             this.btnsubject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -95,10 +99,12 @@
             this.btnsubject.Size = new System.Drawing.Size(256, 94);
             this.btnsubject.TabIndex = 3;
             this.btnsubject.Text = "Subject";
-            this.btnsubject.UseVisualStyleBackColor = true;
+            this.btnsubject.UseVisualStyleBackColor = false;
+            this.btnsubject.Click += new System.EventHandler(this.btnsubject_Click);
             // 
             // btn_student
             // 
+            this.btn_student.BackColor = System.Drawing.Color.Gray;
             this.btn_student.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_student.FlatAppearance.BorderSize = 2;
             this.btn_student.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -109,10 +115,12 @@
             this.btn_student.Size = new System.Drawing.Size(256, 94);
             this.btn_student.TabIndex = 2;
             this.btn_student.Text = "Student";
-            this.btn_student.UseVisualStyleBackColor = true;
+            this.btn_student.UseVisualStyleBackColor = false;
+            this.btn_student.Click += new System.EventHandler(this.btn_student_Click);
             // 
             // btn_faculty
             // 
+            this.btn_faculty.BackColor = System.Drawing.Color.Gray;
             this.btn_faculty.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_faculty.FlatAppearance.BorderSize = 2;
             this.btn_faculty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -123,7 +131,7 @@
             this.btn_faculty.Size = new System.Drawing.Size(256, 94);
             this.btn_faculty.TabIndex = 1;
             this.btn_faculty.Text = "Faculty";
-            this.btn_faculty.UseVisualStyleBackColor = true;
+            this.btn_faculty.UseVisualStyleBackColor = false;
             this.btn_faculty.Click += new System.EventHandler(this.btn_faculty_Click);
             // 
             // pnl_sub_main

@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ABCDES-CSharp.exe" size="150960">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ABCDES-CSharp.exe" size="151984">
       <assemblyIdentity name="ABCDES-CSharp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xG5Nj8KwtaCYIzBUj75fLI9cAWyarlhwT7maRpQNXko=</dsig:DigestValue>
+        <dsig:DigestValue>w3He8UJMagx0TkiGemhG8AuGwUS5idRnFAl6EEcIOZo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

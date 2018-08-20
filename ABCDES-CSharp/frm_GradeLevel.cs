@@ -51,7 +51,7 @@ namespace ABCDES_CSharp
             if (lst_GradeLevel.SelectedIndex > -1)
             {
                 txt_Name.Text = lst_GradeLevel.SelectedItem.ToString();
-                btn_setup(false, true, true, false, false);
+                btn_setup(false, true, true, false, true);
             }
         }
 

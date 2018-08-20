@@ -35,6 +35,7 @@
             this.txt_search = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.profile_pic = new System.Windows.Forms.PictureBox();
             this.cmb_department = new System.Windows.Forms.ComboBox();
             this.txt_suffix = new System.Windows.Forms.TextBox();
             this.txt_surname = new System.Windows.Forms.TextBox();
@@ -48,11 +49,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lbl_id = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profile_pic)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -114,7 +115,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Controls.Add(this.profile_pic);
             this.groupBox1.Controls.Add(this.cmb_department);
             this.groupBox1.Controls.Add(this.txt_suffix);
             this.groupBox1.Controls.Add(this.txt_surname);
@@ -130,10 +131,20 @@
             this.groupBox1.Controls.Add(this.lbl_id);
             this.groupBox1.Location = new System.Drawing.Point(320, 124);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(703, 464);
+            this.groupBox1.Size = new System.Drawing.Size(703, 422);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Basic Information";
+            // 
+            // profile_pic
+            // 
+            this.profile_pic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.profile_pic.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.profile_pic.Location = new System.Drawing.Point(454, 29);
+            this.profile_pic.Name = "profile_pic";
+            this.profile_pic.Size = new System.Drawing.Size(223, 156);
+            this.profile_pic.TabIndex = 29;
+            this.profile_pic.TabStop = false;
             // 
             // cmb_department
             // 
@@ -246,19 +257,20 @@
             this.lbl_id.Text = "lbl_id";
             this.lbl_id.Visible = false;
             // 
-            // pictureBox1
+            // groupBox2
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(454, 29);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(223, 156);
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
+            this.groupBox2.Location = new System.Drawing.Point(320, 552);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(703, 150);
+            this.groupBox2.TabIndex = 17;
+            this.groupBox2.TabStop = false;
             // 
             // Faculty_controler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -272,7 +284,7 @@
             this.panel2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profile_pic)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -299,6 +311,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lbl_id;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox profile_pic;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }

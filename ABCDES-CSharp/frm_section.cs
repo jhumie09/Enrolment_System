@@ -188,7 +188,7 @@ namespace ABCDES_CSharp
                                 txt_Name.Text = reader.GetString(1).ToString();
                                 cmb_Year.SelectedItem = reader.GetString(2).ToString();
                             }
-                            Button_control(false, true, true, false, false);
+                            Button_control(false, true, true, true, false);
                         }
                     }
                 }
